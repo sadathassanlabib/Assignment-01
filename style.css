@@ -1,0 +1,57 @@
+/* header styel */
+
+.header-01{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.header-02{
+    background-image: url(assets/Hero-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 30px 200px;
+
+}
+/* section styel */
+.section-01{
+    margin: 200px;
+    padding: 97px;
+    text-align: center;
+    background-color:rgba(13, 19, 33, 0.02) ;
+}
+.sec-div-p{
+    padding: 48;
+    margin-bottom: 32px;
+    font-size: medium;
+}
+.sec-div{
+    display: block;
+    gap:32px;
+}
+.sec-div-01{
+    display: flex;
+    gap: 98px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-bottom:32px ;
+    margin-top: 32px;
+}
+
+.sec-div-02{
+    display: flex;
+    gap: 98px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+.sec-div-03{
+    display: flex;
+    gap: 98px;
+    background-color: #FFFFFF;
+    padding: 48px;
+}
