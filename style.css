@@ -17,12 +17,16 @@
     padding: 30px 200px;
 
 }
-/* section styel */
+.header-btn{
+    background: none;
+}
+/* section styel */ 
+   /* section-01 */
 .section-01{
     margin: 200px;
     padding: 97px;
     text-align: center;
-    background-color:rgba(13, 19, 33, 0.02) ;
+  
 }
 .sec-div-p{
     padding: 48;
@@ -40,6 +44,7 @@
     padding: 48px;
     margin-bottom:32px ;
     margin-top: 32px;
+    text-align: left;
 }
 
 .sec-div-02{
@@ -48,10 +53,83 @@
     background-color: #FFFFFF;
     padding: 48px;
     margin-bottom: 32px;
+    text-align: left;
 }
 .sec-div-03{
     display: flex;
     gap: 98px;
     background-color: #FFFFFF;
     padding: 48px;
+    text-align: left;
 }
+/* section-02 */
+.section-02{
+    margin: 100px 200px;
+    padding: 97px;
+    text-align: center;
+  
+}
+
+/* section-03 */
+.section-03-div{
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 30px 200px;
+}
+
+.section-03-div-02{
+    display: flex;
+    text-align: left;
+    gap: 48px;
+
+}
+.sec-03-div-02-01{ border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+}
+.sec-03-div-02-02{padding: 40px;border-radius: 16px;
+
+    background-color: rgba(0, 76, 232, 0.05);
+
+}
+.sec-03-div-02-03{border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+
+}
+
+
+.section-04{
+    background-image: url(assets/handshake.jpg);
+    background-size: 1144px 285px;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius:  20px;
+
+    text-align: center;
+    margin: 100px;
+    border: 0px;
+    padding: 30px 200px;
+}
+
+
+/* footer styel */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #b8a0a0;
+}
+.foot-ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+}
+
+
+
